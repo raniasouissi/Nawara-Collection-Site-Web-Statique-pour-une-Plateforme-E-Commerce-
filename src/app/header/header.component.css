@@ -1,0 +1,29 @@
+.jumbotron{
+    margin: 0px auto;
+    padding: 30px 15px;
+    
+    background: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+
+    text-align: center;
+    font-family: Radley
+    ;
+    color:#000000
+
+    ;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 1.5em;;
+}
+
+
+.nav{
+    background: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+
+
+   ;
+   
+    color:#F5D0E2;
+    font-family: "cursive";
+    flex:1;
+} 
+

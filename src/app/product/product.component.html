@@ -1,0 +1,27 @@
+<br>
+<div class="container ">
+  <div *ngIf="products">
+  <div class="row">
+    <div class="col-md-4 col-sm-6" *ngFor="let p of products let index=index" >
+          <div class="card">
+            <img class="card-img-top" src="../assets/images/{{p.image}}" alt="{{p.name}}" style="width:85%; align-self: center;">
+            <div class="card-body">
+              <h5 class="card-title">{{p.name}}</h5>
+              <p class="card-text">
+                Qty in stock : {{p.stockQte}}<br>
+                Unit price : {{p.unitPrice}}<br>
+              </p>
+            </div>         
+            <!--button class="card-footer" (click)="onSelect(p)">Details</button-->
+            <button  class="card-footer" [routerLink]="['/productdetail', p.reference]">Details</button>
+          </div>
+          
+    </div>
+    <div class=""[hidden]="products">
+      <span class="spinner-border text-danger" ></span>
+      <span class=" text-danger" >Loading...</span>
+    </div>
+  </div>
+  
+  
+  <!--app-product-detail class="col-md-4" *ngIf="selectedProd" [product] = "selectedProd"></app-product-detail-->

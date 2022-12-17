@@ -1,0 +1,42 @@
+<link rel ="stylesheet" type ="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+*<div class="container">
+    <div class="row">
+  <div class="card col-md-5">
+      <img class="card-img-top" src="../assets/images/{{product.image}}" alt="{{product.name}}" style="width:85%; align-self: center;">
+    <div class="card-body">  
+        <h5 class="card-title">{{product.name |uppercase}}</h5>
+        <div class="card-text">
+          <p>Category : {{product.category}}</p>
+          <p>Unit price : {{product.unitPrice}}</p>
+
+
+        </div>
+          <p>Size : S,M,L,Xl<p>
+
+        <div clas="" >
+          <a class="btn btn-danger" href=""><i class="fa-solid fa-cart-plus"
+            ></i> Add to cart</a>
+        </div>
+      </div>
+      <div class="card-footer">
+        <button class="btn btn-info" (click)="goBack()">Previous</button>
+      </div>
+  </div>
+  <div class="form-group col-md-7 row">
+    <div>
+      <h5 class="">Customer reviews</h5><br>
+      <p *ngFor="let comment of product.comments">
+        {{comment.comment}}<br/>
+        {{comment.rating}} Stars <br/>
+        **** {{comment.date|date:"EEEE dd-MMMM-YYYY"}} ****
+    </p>
+      <span>Your review</span>
+      <textarea [(ngModel)] ="comment.comment" style="width:90%;"></textarea>
+      <span> Classification </span>
+      <input type="range" min="0" max="5"  [(ngModel)] ="comment.rating"/> {{comment.rating}}<br>
+        <button class="btn btn-secondary" (click)="addComment()">Add Comment</button>
+     
+  </div>
+  </div>      
+  </div>

@@ -1,0 +1,15 @@
+.card-footer{
+    color:rgb(3, 3, 3);
+    background-color: rgb(245, 235, 243);
+    font-weight: bold;
+}
+img {
+    width: 200%;
+    height: 450px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(202, 37, 16, 0.3);
+
+}
+&:hover {
+    transform: scale(1.1);
+}

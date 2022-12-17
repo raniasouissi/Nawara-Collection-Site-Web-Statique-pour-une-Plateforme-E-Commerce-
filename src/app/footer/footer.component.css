@@ -1,0 +1,16 @@
+footer {
+    background: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+    margin: 0px auto;
+    padding: 1em;
+    }
+h5{
+    font-style: oblique;
+    font-weight: bold;
+    font-family:verdana;
+}
+
+.copyright{
+    text-align:center;
+}
+
+  
