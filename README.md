@@ -32,7 +32,7 @@
 
 ### Page About Us
 ![About Us](./src/assets/images/about.png)  
-*Description : Présentation de l'entreprise avec une liste de produits disponibles.*
+*Description : Présentation de l'entreprise .*
 
 ---
 
