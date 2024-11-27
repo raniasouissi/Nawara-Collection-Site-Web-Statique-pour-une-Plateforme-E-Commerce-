@@ -15,7 +15,7 @@
 
 ### Écran d'accueil
 ![Écran d'accueil](./src/assets/images/home.png) 
-![Produits](./src/assets/images/products.png) 
+![Produits](./src/assets/images/product.png) 
 *Description : Aperçu de la page d'accueil avec une présentation des produits.*
 
 ### Détail d'un produit
