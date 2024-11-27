@@ -14,9 +14,13 @@
 ## Aperçu de l'application
 
 ### Écran d'accueil
-![Écran d'accueil](./src/assets/images/home.png) 
-![Produits](./src/assets/images/product.png) 
+![Écran d'accueil](./src/assets/images/home.png)  
 *Description : Aperçu de la page d'accueil avec une présentation des produits.*
+
+### Produits
+![Produits](./src/assets/images/product.png)  
+*Description : Aperçu des produits disponibles sur le site.*
+
 
 ### Détail d'un produit
 ![Détails produit](./src/assets/images/detpro.png)  
