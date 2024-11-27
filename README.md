@@ -1,27 +1,49 @@
-# FirstProjet
+# Nawara-Collection - Site Web Statique pour une Plateforme E-Commerce
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.7.
+**Nawara Collection** est un site web statique e-commerce destiné à la vente de produits de mode pour femmes. Ce projet permet aux utilisateurs de découvrir les produits, d'ajouter des articles à leur panier et de consulter les détails des produits. Il est construit en utilisant **HTML5**, **CSS3**, **TypeScript**, et **AngularJS**.
 
-## Development server
+## Fonctionnalités
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Affichage des produits** : Liste des produits avec possibilité de filtrer et de trier.
+- **Page produit** : Détails complets d'un produit avec description, taille, couleur, et prix.
+- **Ajout au panier** : Permet à l'utilisateur d'ajouter des produits à son panier.
+- **Page Contact Us** : Une page interactive avec une carte pour localiser la boutique.
+- **Page About Us** : Présentation de la boutique et de ses produits, y compris une liste des articles disponibles.
+- **Responsive design** : Le site est optimisé pour une utilisation sur mobile et bureau.
 
-## Code scaffolding
+## Aperçu de l'application
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Écran d'accueil
+![Écran d'accueil](./src/assets/images/home.png) 
+![Produits](./src/assets/images/products.png) 
+*Description : Aperçu de la page d'accueil avec une présentation des produits.*
 
-## Build
+### Détail d'un produit
+![Détails produit](./src/assets/images/detpro.png)  
+*Description : Détails complets d'un produit avec options pour ajouter au panier.*
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Page Contact Us
+![Contact Us](./src/assets/images/contact.png)  
+*Description : Page de contact avec une carte pour localiser la boutique.*
 
-## Running unit tests
+### Page About Us
+![About Us](./src/assets/images/about.png)  
+*Description : Présentation de l'entreprise avec une liste de produits disponibles.*
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+---
 
-## Running end-to-end tests
+## Technologies utilisées
+- **HTML5**
+- **CSS3**
+- **TypeScript**
+- **AngularJS**  
+- **Responsive design**
+- **Carte interactive (Google Maps )**
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+---
 
-## Further help
+## Installation et exécution
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+1. Clonez ce dépôt :
+   ```bash
+   git clone https://github.com/raniasouissi/Nawara-Collection-Site-Web-Statique-pour-une-Plateforme-E-Commerce.git
